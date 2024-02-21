@@ -15,6 +15,9 @@ import java.util.Scanner;
  */
 public class ArithmeticBase 
 {
+    enum Operation{
+    PLUS, MINUS, TIMES, DIVIDE
+    }
  public double x,y;
     double calculate(double x, double y) 
         {
